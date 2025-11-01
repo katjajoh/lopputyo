@@ -39,7 +39,7 @@ Lopputyö oli opettavainen, sillä sain käsityksen Gitin keskeisistä toiminnoi
 Linkki GitHub-repositorioon
 https://github.com/katjajoh/lopputyo
 
-Kuvia työn vaiheista:
+Kuvia työn merge- ja cherry-pick-vaiheista:
 
 ![Merge-konflikti 1](https://github.com/katjajoh/lopputyo/raw/main/merge.png)
 ![Merge-konflikti 2](https://github.com/katjajoh/lopputyo/raw/main/merge2.png)
