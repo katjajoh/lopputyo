@@ -41,10 +41,10 @@ https://github.com/katjajoh/lopputyo
 
 Kuvia työn vaiheista:
 
-![Merge-konflikti 1](https://github.com/katjajoh/loppuytö/blob/main/merge.png?raw=true)
-![Merge-konflikti 2](https://github.com/katjajoh/loppuytö/blob/main/merge2.png?raw=true)
-![Cherry pick 1](https://github.com/katjajoh/loppuytö/blob/main/image-1.png?raw=true)
-![Cherry pick 2](https://github.com/katjajoh/loppuytö/blob/main/image-2.png?raw=true)
+![Merge-konflikti 1](https://github.com/katjajoh/lopputyo/raw/main/merge.png)
+![Merge-konflikti 2](https://github.com/katjajoh/lopputyo/raw/main/merge2.png)
+![Cherry pick 1](https://github.com/katjajoh/lopputyo/raw/main/image-1.png)
+![Cherry pick 2](https://github.com/katjajoh/lopputyo/raw/main/image-2.png)
 
 
 
