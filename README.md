@@ -36,9 +36,15 @@ Mitä opin
 Yhteenveto:
 Lopputyö oli opettavainen, sillä sain käsityksen Gitin keskeisistä toiminnoista ja opin hahmottamaan, miten commitit, haarat ja yhdistämiskomennot toimivat. Projektin aikana sain myös varmuutta komentorivin käyttöön ja ongelmatilanteiden ratkaisuun.
 
-Kuvia työn vaiheista:
-![Merge-konflikti](https://github.com/katjajoh/loppuytö/blob/main/merge.png?raw=true)
-
-
 Linkki GitHub-repositorioon
 https://github.com/katjajoh/lopputyo
+
+Kuvia työn vaiheista:
+
+![Merge-konflikti 1](https://github.com/katjajoh/loppuytö/blob/main/merge.png?raw=true)
+![Merge-konflikti 2](https://github.com/katjajoh/loppuytö/blob/main/merge2.png?raw=true)
+![Cherry pick 1](https://github.com/katjajoh/loppuytö/blob/main/image-1.png?raw=true)
+![Cherry pick 2](https://github.com/katjajoh/loppuytö/blob/main/image-2.png?raw=true)
+
+
+
