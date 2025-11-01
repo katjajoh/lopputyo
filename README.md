@@ -74,5 +74,3 @@ https://github.com/katjajoh/lopputyo
 
 ---
 
-### Linkki GitHub-repositorioon  
-[https://github.com/katjajoh/lopputyo](https://github.com/katjajoh/lopputyo)
