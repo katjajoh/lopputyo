@@ -36,9 +36,9 @@ Mitä opin
 Yhteenveto:
 Lopputyö oli opettavainen, sillä sain käsityksen Gitin keskeisistä toiminnoista ja opin hahmottamaan, miten commitit, haarat ja yhdistämiskomennot toimivat. Projektin aikana sain myös varmuutta komentorivin käyttöön ja ongelmatilanteiden ratkaisuun.
 
-Kuvia työn vaiheista
-Kuvassa merge-konflikti: ![Merge-konflikti](image.png)
-Kuvassa cherry pickin konflikti ja ratkaisu: ![Cherry pick 1](image-1.png) ![Cherry pick 2](image-2.png)
+Kuvia työn vaiheista:
+![Merge-konflikti](https://github.com/katjajoh/loppuytö/blob/main/merge.png?raw=true)
+
 
 Linkki GitHub-repositorioon
 https://github.com/katjajoh/lopputyo
