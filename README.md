@@ -18,7 +18,7 @@ git stash ja git stash pop
 git revert (virheellisesti lisätty tiedosto)  
 git cherry-pick (kolmas_haara -branchista yksi commit mainiin)  
 git tag v1.0.0 ja git push origin v1.0.0  
-git rebase main (päivitettiin toinen_haara)  
+git rebase main (toinen_haara päivitettiin)  
 git push, git pull  
 .gitignore-tiedoston lisäys  
 git pull origin main
@@ -52,14 +52,14 @@ Loin .gitignore-tiedoston ja lisäsin siihen `.log` ja `temp/`, jotta tällaiset
 - Opin myös käyttämään rebasingia, joka auttaa pitämään historian selkeänä.
 - Opin, että Stash-komento on hyödyllinen, kun haluaa tallentaa keskeneräiset muutokset ilman commitointia ja jatkaa työtä myöhemmin.
 - Lisäksi opin, että virheellisiä committeja voi perua git revert -komennolla ja että .gitignore-tiedoston avulla voi rajata pois tarpeettomat tai väliaikaiset tiedostot versionhallinnasta.
+- Opin myös tekemään miellyttävän näköisen README-tiedoston (jätin tiedoston alkuun rivit "Tänne tulee tietoa lopputyön vaiheista" "Tämä rivi on MAIN-versiossa" ja "Tämä rivi on TOINEN_HAARA-versiossa" läpinäkyvyyden vuoksi, mutta tiedän että ne voisi siistiä myös pois).
 - Kaiken kaikkiaan sain varmuutta komentorivin käyttöön ja rohkeutta kokeilla uutta.  
 
 ---
 
 ### ✔️ Yhteenveto  
 
-Lopputyö oli opettavainen, sillä sain käsityksen Gitin keskeisistä toiminnoista ja opin hahmottamaan, miten commitit, haarat ja yhdistämiskomennot toimivat.  
-Projektin aikana sain myös varmuutta komentorivin käyttöön ja ongelmatilanteiden ratkaisuun.  
+Lopputyö oli opettavainen, sillä sain käsityksen Gitin keskeisistä toiminnoista ja opin hahmottamaan, miten commitit, haarat ja yhdistämiskomennot toimivat. Projektin aikana sain myös varmuutta komentorivin käyttöön ja ongelmatilanteiden ratkaisuun.  
 
 ---
 
