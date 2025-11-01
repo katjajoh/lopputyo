@@ -44,11 +44,15 @@ Loin .gitignore-tiedoston ja lisäsin siihen `.log` ja `temp/`, jotta ne eivät 
 
 ### Mitä opin  
 
-- Ymmärrän nyt paremmin, miten haarat, merge ja cherry-pick eroavat toisistaan.  
-- Opin, että git stash ja git stash pop ovat käteviä tapoja keskeyttää työ ja jatkaa siitä myöhemmin.  
-- Opin ratkaisemaan merge-konfliktin VS Codessa.  
-- Opin tekemään tagin ja viemään sen GitHubiin.  
-- Sain varmuutta komentorivin käyttöön.  
+- Lopputyön aikana opin käyttämään Gitin keskeisimpiä toimintoja sekä hahmottamaan, miten versiohallinta helpottaa työn seurantaa ja virheiden korjaamista. 
+- Ymmärrän, miten haarat mahdollistavat eri osien kehittämisen rinnakkain ilman, että päähaara rikkoutuu tai vahingoittuu.
+- Opin ratkaisemaan merge-konfliktin VS Codessa.
+- Ymmärrän mergen ja cherry-pickin eron: merge yhdistää kokonaisia haaroja, kun taas cherry-pickillä voi poimia yksittäisiä committeja eri haaroista.
+- Opin tekemään tagin ja viemään sen GitHubiin.
+- Opin myös käyttämään rebasingia, joka auttaa pitämään historian selkeänä.
+- Opin,että Stash-komento on hyödyllinen, kun haluaa tallentaa keskeneräiset muutokset ilman commitointia ja jatkaa työtä myöhemmin.
+- Lisäksi opin, että virheellisiä committeja voi perua git revert -komennolla ja että .gitignore-tiedoston avulla voi rajata pois tarpeettomat tai väliaikaiset tiedostot versionhallinnasta.
+- Kaiken kaikkiaan sain varmuutta komentorivin käyttöön ja rohkeutta kokeilla uutta.  
 
 ---
 
