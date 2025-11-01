@@ -30,9 +30,9 @@ git push, git pull
 Muokkasin README.md:tä kahdessa eri haarassa. Ratkaisin konfliktin VS Codessa valitsemalla molemmat rivit (accept both changes) ja tein uuden commitin.  
 
 **Cherry-pick ei mennyt läpi heti:**  
-Etsin ensin valitsemani commitin (“Palautettu stashi ja tallennettu muutos”) tunnisteen git log -komennolla ja ajoin sen jälkeen komennon git cherry-pick commit-id.  
-Tässä vaiheessa Git avasi editorin ja pyysi viimeistelemään commitin, mikä aiheutti hetken hämmennystä, koska se ei sulkeutunut normaalisti ja näkymä jäi jumiin.  
-Suljin terminaalin ja avasin uuden. Lopulta Git hyväksyi komennon, ja commit siirtyi mainiin ilman, että muut saman haaran muutokset tulivat mukana.  
+Etsin ensin haluamani commitin ("Palautettu stashi ja tallennettu muutos”) tunnisteen git log -komennolla ja ajoin sen jälkeen komennon git cherry-pick commit-id.
+Tässä vaiheessa Git avasi editorin ja pyysi viimeistelemään commitin, mikä aiheutti hetkellisen hämmennyksen, koska editori ei sulkeutunut normaalisti ja terminaalin näkymä jäi jumiin.
+Suljin terminaalin ja avasin uuden. Lopulta ratkaisin tilanteen suorittamalla komennon uudelleen lisäoptiolla --no-edit, jolloin Git hyväksyi komennon ilman erillistä editoria ja commit siirtyi onnistuneesti mainiin ilman, että muut saman haaran muutokset tulivat mukana.
 
 **Virheellinen commit:**  
 Lisäsin tarkoituksella tiedoston “vahingossa” ja peruin sen komennolla git revert.  
