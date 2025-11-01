@@ -21,6 +21,7 @@ git tag v1.0.0 ja git push origin v1.0.0
 git rebase main (päivitettiin toinen_haara)  
 git push, git pull  
 .gitignore-tiedoston lisäys  
+git pull origin main
 
 ---
 
@@ -31,7 +32,7 @@ Muokkasin README.md:tä kahdessa eri haarassa. Ratkaisin konfliktin VS Codessa v
 
 **Cherry-pick ei mennyt heti läpi:**  
 Etsin ensin valitsemani commitin ("Palautettu stashi ja tallennettu muutos”) tunnisteen `git log` -komennolla ja ajoin sen jälkeen komennon `git cherry-pick commit-id`.  
-Cherry-pick kuitenkin epäonnistui, koska se ilmeisesti yritti poimia commitin, joka muokkasi tiedostoa (`dokumentointi.md`). Tämä tiedosto oli kuitenkin jo poistettu main-haarassa. Tämä johti *modify/delete*-konfliktiin. Tässä vaiheessa Git avasi myös editorinäkymän, mikä aiheutti hetkellisen hämmennyksen, koska se ei sulkeutunut normaalisti ja terminaalin näkymä jäi jumiin. Jouduin sulkemaan terminaalin ja avaamaan uuden ikkunan. Ratkaisin ongelman lisäkomennolla `git cherry-pick --continue --no-edit`, jolloin Git viimeisteli cherry-pickin ja siirsi commitin mainiin.  
+Cherry-pick kuitenkin epäonnistui, koska se yritti poimia commitin, joka muokkasi tiedostoa (`dokumentointi.md`). Tämä tiedosto oli kuitenkin siinä vaiheessa poistettu main-haarassa. Tämä johti *modify/delete*-konfliktiin. Tässä vaiheessa Git avasi myös editorinäkymän, mikä aiheutti hetkellisen hämmennyksen, koska se ei sulkeutunut normaalisti ja terminaalin näkymä jäi jumiin. Jouduin sulkemaan terminaalin ja avaamaan uuden ikkunan. Ratkaisin ongelman lisäkomennolla `git cherry-pick --continue --no-edit`, jolla Git palautti poistettuna olleen tiedoston (dokumentointi.md) takaisin ja lisäsi siihen commitin sisällön.
 
 **Virheellinen commit:**  
 Lisäsin tarkoituksella "vahinkotiedoston" ja peruin sen komennolla `git revert`.
